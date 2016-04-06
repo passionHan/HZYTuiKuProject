@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 2.2.4'
+pod 'MJRefresh', '~> 3.0.0'
+pod 'SDWebImage', '~> 3.6'
+pod 'SVProgressHUD'
+pod 'Masonry'
+pod 'FMDB'
+pod 'MJExtension', '~> 3.0.0'

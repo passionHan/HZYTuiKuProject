@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  HZYTuiKuProject
+//
+//  Created by passion on 16/3/19.
+//  Copyright (c) 2016年 passionHan. All rights reserved.
+//
+
+#ifndef HZYTuiKuProject_PrefixHeader_pch
+#define HZYTuiKuProject_PrefixHeader_pch
+
+
+
+////自定义公共导航栏
+#import "HZYNavigationController.h"
+////用户登录模型的头文件
+#import "HZYUserLoginModel.h"
+////公共常量类
+#import "HZYConst.h"
+
+#import "HZYArticleTool.h"
+#import "HZYHttpRequest.h"
+
+#import "UIView+Extension.h"
+
+#import <MJRefresh.h>
+#import <SVProgressHUD.h>
+#import <FMDB.h>
+#import <AFNetworking.h>
+#import <MJExtension.h>
+
+#define NavColor [UIColor colorWithRed:22.0/255.0 green:147.0/255.0 blue:114.0/255.0 alpha:1.0]
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenheight [UIScreen mainScreen].bounds.size.height
+
+#define HZYColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define kTopicURL @"http://api.tuicool.com/api/topics/user_default.json"
+
+#define kSiteURL @"http://api.tuicool.com/api/sites/user_default.json"
+
+#define kDetatilURL @"http://api.tuicool.com/api/articles/%@.json?is_pad=1&need_image_meta=1"
+
+#define kWeeklyItemUrl @"http://api.tuicool.com/api/mag/home.json"
+
+#endif
